@@ -16,9 +16,6 @@
         <div id='percentual-loja-regiao-dois'>{% comment "" %}PORCENTAGEM CONCLUIDA REGIONAL DOIS{% endcomment %}{{projeto.first.regionais.last.lojas.first.percentual_concluido}}</div>
         <div id='percentual-loja-geral'>{% comment "" %}PORCENTAGEM CONCLUIDA GERAL{% endcomment %}{{projeto.first.percentual_concluidas}}</div>
         <div id='percentual-equipe-manutencao'>{% comment "" %}PORCENTAGEM CONCLUIDA EQUIPE{% endcomment %}{{request.user.suporte.regiao.lojas.first.percentual_concluido}}</div>
-
-        {% comment "" %}LOJA ATUAL REGIONAL UM{% endcomment %}{{projeto.first.regionais.first.loja_atual_valida}}
-        {% comment "" %}LOJA ATUAL REGIONAL DOIS{% endcomment %}{{projeto.first.regionais.last.loja_atual_valida}}
     </div>
     <div>
         <div class="dash-head row m-0 bg-white bg-gradient" style="height: 10vh;">

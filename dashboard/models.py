@@ -62,7 +62,7 @@ class Loja(models.Model):
         total = Loja.objects.filter(concluida=True).filter(regiao__nome=self.regiao).count()
         total_lojas = Loja.objects.all().filter(regiao__nome=self.regiao).count()
         percentual = ((total/total_lojas)*100)
-        return percentual
+        return int(percentual)
     
     class Meta:
         verbose_name = 'Loja'
@@ -79,7 +79,7 @@ class Dashboard(models.Model):
         total_concluidas = Loja.objects.all().filter(concluida=True).count()
         total_nao_concluidas = Loja.objects.all().filter(concluida=False).count()
         percentual_geral = ((total_concluidas/total_nao_concluidas)*100)
-        return percentual_geral
+        return int(percentual_geral)
     
     class Meta:
         verbose_name = 'Dashboard'

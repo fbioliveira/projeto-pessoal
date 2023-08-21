@@ -3,7 +3,7 @@ let circularProgress = document.querySelector('.circular-progress'),
 
 let progressStartValue = 0,
     element = document.getElementById('percentual-loja-regiao-um').innerHTML,
-    progressEndValue = parseInt(element),
+    progressEndValue = element,
     speed = 30;
     
 
@@ -25,7 +25,7 @@ let circularProgressDois = document.querySelector('.circular-progress-dois'),
 
 let progressStartValueDois = 0,
     elementDois = document.getElementById('percentual-loja-regiao-dois').innerHTML,
-    progressEndValueDois = parseInt(elementDois),
+    progressEndValueDois = elementDois,
     speedDois = 30;
     
 
@@ -47,9 +47,8 @@ let circularProgressGeral = document.querySelector('.circulo-geral'),
 
 let progressStartValueGeral = 0,
     elementGeral = document.getElementById('percentual-loja-geral').innerHTML,
-    progressEndValueGeral = parseInt(elementGeral),
+    progressEndValueGeral = elementGeral,
     speedGeral = 30;
-    
 
 let progressGeral = setInterval(() => {
     if (elementGeral > 0){
@@ -69,7 +68,7 @@ let circularProgressManutencao = document.querySelector('.circulo-manutencao'),
 
 let progressStartValueManutencao = 0,
     elementManutencao = document.getElementById('percentual-equipe-manutencao').innerHTML,
-    progressEndValueManutencao = parseInt(elementManutencao),
+    progressEndValueManutencao = elementManutencao,
     speedManutencao = 30;
     
 
