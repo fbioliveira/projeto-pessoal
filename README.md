@@ -1,7 +1,7 @@
 # Sistema de acompanhamento de conclusão projeto
 Sistema de manutenção de projeto com dashboard
 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/neliocursos/exemplo-readme/blob/main/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)]([https://github.com/fbioliveira/projeto-pessoal/blob/main/LICENSE)) 
 
 # Sobre o projeto
 
