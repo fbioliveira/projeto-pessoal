@@ -1,0 +1,16 @@
+{% extends 'manutencao.html' %}
+{% block manutencao %}
+<div class="manutencao-dois border mt-5 ms-5 pt-3 me-5 bg-white shadow-sm text-center" style="height: 300px;">
+    <span class="display-6 text-danger" style="font-size: 25px;">INICIAR PROJETO</span>
+    <div class="forms-projeto">
+        <form action="{% url 'encerrar-manutencao'%}" method="POST">
+            {%csrf_token%}
+            <select class="display-6 mt-5" name="lojas" style="font-size: 30px; color: rgb(7, 31, 139); width: 200px;">
+            </select>
+            <div class="d-flex justify-content-center mt-4">
+                <input class="btn btn-danger p-3" type="submit" style="width: 350px; font-size: 25px;" value="ENCERRAR SUPERVISAO">
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock manutencao %}

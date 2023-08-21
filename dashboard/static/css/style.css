@@ -1,0 +1,55 @@
+.circular-progress::before{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circular-progress-dois::before{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circulo-geral::before{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.circulo-manutencao::before{
+    content: '';
+    position: absolute;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.progress-value {
+    position: relative;
+}
+
+.progress-value-dois {
+    position: relative;
+}
+
+.progress-value-geral {
+    position: relative;
+}
+
+.progresso-manutencao {
+    position: relative;
+}
+
+.bolder {
+    font-weight:400 ;
+}

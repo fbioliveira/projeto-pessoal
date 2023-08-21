@@ -1,0 +1,19 @@
+{%extends 'index.html'%}
+{%block base %}
+    <div class="bg-light p-0 border-top border-bottom col-11">
+        <div class="d-flex justify-content-center align-items-center" style="height: 100%;">
+            <form class="d-flex justify-content-center align-items-center" action="{%url 'login'%}" method="post" autocomplete="off">
+                {%csrf_token%}
+                <div class="d-flex flex-column shadow rounded bg-gradient bg-dark justify-content-center align-items-center" style="height: 400px; width: 400px;">
+                    <label class="text-white display-6" for="" style="font-size: 30px;">Usuário</label>
+                    <input class="p-2 m-2" type="text" name="username" required>
+                    <label class="text-white display-6" for="" style="font-size: 30px;">Senha</label>
+                    <input class="p-2 m-2" type="password" name="password" required>
+                    <input class="p-2 m-4 btn btn-primary" type="submit" value="Login" style="width: 250px; font-size: 30px;">
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    
+{%endblock%}
