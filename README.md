@@ -13,7 +13,7 @@ A aplicação consiste na necessidade de acompanhamento das lojas que foram 'fin
 
 
 ## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+![Web 1](https://github.com/fbioliveira/assets/blob/main/dashboard.png)
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
