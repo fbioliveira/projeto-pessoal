@@ -7,7 +7,7 @@ Sistema de manutenção de projeto com dashboard
 
 link do site do projeto <<<<<<<<
 
-Sistema criado para companhamento das lojas onde a implantação do projeto foi realizada. Informa que por ser meu primeiro projeto, apesar de ter utilizado bootstrap não me preocupei com a responsividade do mesmo, pois estava mais preocupado em deixá-lo funcional do que na responsividade.
+Sistema criado para companhamento das lojas onde a implantação do projeto foi realizada. Informo que por ser meu primeiro projeto, apesar de ter utilizado bootstrap não me preocupei com a responsividade do mesmo, pois estava mais preocupado em deixá-lo funcional do que com a responsividade.
 
 A aplicação consiste na necessidade de acompanhamento das lojas que foram 'finalizadas' no projeto, para assim termos uma idéia do andamento da conclusão do mesmo.
 
