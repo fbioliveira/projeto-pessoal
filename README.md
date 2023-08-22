@@ -23,7 +23,7 @@ A aplicação consiste na necessidade de acompanhamento das lojas que foram 'fin
 ## Back end
 - Python
 - Django
-- 
+  
 ## Front end
 - HTML
 - CSS
@@ -34,7 +34,7 @@ A aplicação consiste na necessidade de acompanhamento das lojas que foram 'fin
 - Back end: >>>> Hospedagem
 - Front end web: >>>> emuladores
 - Banco de dados: >>>>Banco de dados
-- 
+  
 # Como executar o projeto
 
 ## Back end
