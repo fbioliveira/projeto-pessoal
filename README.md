@@ -15,10 +15,9 @@ A aplicação consiste na necessidade de acompanhamento das lojas que foram 'fin
 ## Layout web
 ![Web 1](https://github.com/fbioliveira/assets/blob/main/dashboard.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+![Web 2](https://github.com/fbioliveira/assets/blob/main/login.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Web 3](https://github.com/fbioliveira/assets/blob/main/manutencao.png)
 
 # Tecnologias utilizadas
 ## Back end
