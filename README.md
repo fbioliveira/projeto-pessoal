@@ -21,56 +21,41 @@ A aplicação consiste na necessidade de acompanhamento das lojas que foram 'fin
 
 # Tecnologias utilizadas
 ## Back end
-- Java
-- Spring Boot
-- JPA / Hibernate
-- Maven
+- Python
+- Django
+- 
 ## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
+- HTML
+- CSS
+- Java Script
+- Bootstrap 5
+  
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
-
+- Back end: >>>> Hospedagem
+- Front end web: >>>> emuladores
+- Banco de dados: >>>>Banco de dados
+- 
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 11
+Pré-requisitos: Python 3.11.0
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone https://github.com/fbioliveira/projeto-pessoal.git
 
-# entrar na pasta do projeto back end
-cd backend
-
-# executar o projeto
-./mvnw spring-boot:run
-```
-
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
+# entrar na pasta do projeto projeto-pessoal
+cd projeto-pessoal
 
 # instalar dependências
-yarn install
+Django, Pillow
+
+** para servidores de hospedagem, instalar o Gunicorn e Whitenoise
 
 # executar o projeto
-yarn start
+python manage.py runserver
 ```
 
 # Autor
 
-Wellington Mazoni de Andrade
-
-https://www.linkedin.com/in/wmazoni
+Fabio Gomes de Oliveira
